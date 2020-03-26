@@ -1,0 +1,29 @@
+/*** 1. FUA que lê o número de um funcionário, seu número de horas trabalhadas e o valor
+que recebe por hora. O algoritmo deve calcular e mostrar o salário deste
+funcionário.
+Algoritimo exe1
+var
+	n_funcionario: inteiro
+	horas, valor, salario: real
+Inicio
+	escreva("Numero do Funcionario: ")
+	leia(n_funcionario)
+	escreva("Horas Trabalhadas: ")
+	leia (horas)
+	escreva("Valor da hora: ")
+	leia(valor)
+	salario <- horas * valor
+	escreva ("Salario do funcionario: ", salario)
+final
+***/
+
+#include <studio.h>
+int main()
+{
+	int n_funcionario;
+	float horas, valor, salario;
+		
+	printf("Numero do Funcionario"); //equivale ao escreva
+	scanf("%i", &n_funcionario); //equivale ao leia - %i ler inteiro - & para fazer leitura na memória
+	printf("Horas Trabalhadas: ");
+	scanf("%f", &horas);

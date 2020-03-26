@@ -1,0 +1,37 @@
+Introdução ao Desenvolvimento Web
+
+Exercícios aula 01
+Alex Nunes Rosa Gonçalves
+
+
+1.:     E-commerce e Marketplace.
+
+    Os principais diferenciais do E-commerce são a entrega a domicílio, facilidade de pagamento em muitos casos e a possibilidade de fornecer um custo final menor ao consumidor. O Marketplace tem como diferencial um custo notoriamente menor para o gestor, disponibilização de tráfego, e uma facilidade na divulgação do produto.
+    As tecnologias empregadas no E-commerce vão desde a Inteligência Artificial usada nos chats de atendimento até o uso da blockchain para deixar as transações mais seguras, da mesma forma que o Marketplace, que compartilham de muitas das tecnologias empregadas no E-commerce, tendo diferencial no maior uso de redes sociais.
+    O E-commerce surgiu basicamente em 1981, quando  empresa Thomson Holidays realizou a primeira transação eletrônica da internet. O Marketplace online surgiu logo após o surgimento do E-commerce.
+    O público alvo do E-commerce são as pessoas que buscam uma forma mais rápida, fácil e ágil para fazer compras. Já o Marketplace, pessoas que desejam uma forma de divulgar seus produtos sem gastar muito, usufruindo do tráfego e do sistema no gestor.
+
+2.: 
+
+    Javascript.
+
+3.:
+    
+    A arquitetura da internet é baseada no TCP/IP, onde ocorre um packet switching. Basicamente, todo computador possui um MAC, que pode estar associado a um ou mais endereços IP, que estão interligados ao gateway do dispositivo, onde se conectam em um gateway remoto e conectam-se a internet.
+
+4.:
+
+Ela utiliza o HTTP (Hypertext Transfer Protocol). 
+O protocolo HTTP é um protocolo de comunicação que funciona quando um navegador faz solicitações para um servidor, abrindo uma conexão TCP/IP.
+
+
+
+5.:
+
+W3C (World Wide Web Consortium).
+
+
+
+
+    
+

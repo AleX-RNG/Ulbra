@@ -1,0 +1,36 @@
+Introdução a Computação.
+Exercícios sobre aula 1, 2 e 3.
+
+Alex Nunes Rosa Gonçalves
+
+
+1.: d) Dispositivo de entrada. O leitor de código de barras é um dispositivo de entrada pois ele fornece informação para as operações em um programa em um computador.
+
+2.:    A memória secundária é mais lenta, pois é usada para armazenamento permanente de dados, possui maior capacidade, pois necessita guardar grandes volumes de dados, e é teoricamente permanente, pois é usada para guardar dados de forma permanente, diferente da memória primária.
+
+3.:     A memória primária é um tipo de memória que é acessada diretamente pela CPU. Tipos: 
+
+Memória cache: Usada pelo processador para armazenar os dados mais importantes, pois ela é extremamente rápida.
+Memória ROM: É uma memória de somente leitura, usada em vários dispositivos, como placas-mãe.
+Memória RAM: É uma memória usada pelo computador para armazenar os dados que estão sendo utilizados no momento, como por exemplo ao abrir um aplicativo.
+
+4.:     Um software tradutor é um software que  converte uma linguagem específica para uma linguagem binária.
+
+5.:     Ciclo de busca e Ciclo de Execução.
+
+6.:     A arquitetura de john von neumann consiste em uma Unidade Controladora, Unidade lógica e aritmética (ULA), Unidade de Memória, Registradores e de Entradas/saídas. A arquitetura funciona armazenando os dados da instrução e do programa na mesma memória. Esse design ainda é usado na maioria dos computadores produzidos hoje.
+
+7.:     A afirmação não é válida pois ambas funcionam de forma diferente. A memória principal, no caso, a RAM, funciona armazenando os dados conforme são necessitados, como quando um programa é aberto, e então é mantido na RAM, por ser mais rápida. Já a memória secundária só guarda o programa, permanentemente.
+
+8.:     O sistema operacional usa a Master File Table (MFT) como um índice para os arquivos armazenados nos discos rígidos. Quando um arquivo é excluído, é mais rápido para o SO marcar sua entrada na MFT como 'excluída' do que para o SO substituir o arquivo em si, para que ele seja deixado no disco rígido. Então é possível escanear o MFT pelos arquivos marcados como MFT, e então recuperar os arquivos. 
+
+9.: Uma linguagem de programação é uma linguagem formal, que compreende um conjunto de instruções que produzem vários tipos de saída. Linguagens de programação são usadas na programação de computadores para implementar algoritmos. Serve para expressar instruções para o computador, na forma de programas.
+
+Características do C++:
+
+É uma linguagem de Programação Orientada a Objetos;
+É Independente da plataforma ou da máquina, sendo portátil;
+É simples e popular;
+É uma linguagem de programação de alto nível;
+É veloz;
+Oferece uma biblioteca cheia de funções integradas que facilitam as coisas para o programador.
