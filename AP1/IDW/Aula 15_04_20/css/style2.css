@@ -1,0 +1,164 @@
+* {
+    margin: 0 auto;
+    font-family: Calibri;
+}
+
+.head {
+    color:#1069dc;
+    font-size: 20px;
+    line-height:25px;
+    right: 1500px;
+    top: 30px;
+    position: absolute;
+}
+
+#dash{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 105px;
+}
+
+#dash2{
+    background-color: #e6e6e6;
+    width: 605px;
+    height: 3px;
+    position: absolute;
+    top: 450px;
+    left: 350px
+}
+
+.dash3{
+    background-color: #e6e6e6;
+    width: 3px;
+    height: 720px;
+    position: absolute;
+    top: 200px;
+    left: 1000px
+}
+
+#partum {
+    position: absolute;
+    top: 170px;
+    right: 1000px;
+    font-size: 40px;
+    color: #cc150c;
+}
+
+#partum ul {
+    font-size: 18px;
+}
+
+#newone{
+    top: 500px;
+    position: absolute;
+    left: 350px;
+    font-size: 18px;
+    color: #cc150c;
+}
+
+#newtwo{
+    top: 500px;
+    position: absolute;
+    left: 560px;
+    font-size: 18px;
+    color: #cc150c;
+}
+
+#newthree{
+    top: 500px;
+    position: absolute;
+    left: 770px;
+    font-size: 18px;
+    color: #cc150c;
+}
+
+#newfour{
+    top: 785px;
+    position: absolute;
+    left: 350px;
+    font-size: 18px;
+    color: #cc150c;
+}
+
+aside{
+    font-size: 18px;
+}
+
+#leftone {
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    color: #cc150c;
+}
+
+#lefttwo{
+    position: absolute;
+    top: 500px;
+    right: 600px;
+    color: #cc150c;
+}
+
+#leftthree{
+    position: absolute;
+    top: 670px;
+    right: 600px;
+    color: #cc150c;
+}
+
+#leftfour{
+    position: absolute;
+    top: 200px;
+    right: 280px;
+    color: #ff8d25;
+}
+
+#leftfive{
+    position: absolute;
+    top: 370px;
+    right: 300px;
+    color: #ff8d25;
+}
+
+#leftsix{
+    position: absolute;
+    top: 520px;
+    right: 260px;
+    color: #ff8d25;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 70px ;
+    background-color: #2168bd;
+    top: 1100px;
+}
+
+footer h3{
+    position: absolute;
+    font-size: 30px;
+    left: 350px;
+    top: 15px;
+    color: white;
+}
+
+footer p{
+    
+	position: absolute;
+    font-size: 14px;
+    left: 550px;
+    top: 25px;
+    color: #8fb3de;
+}
+
+footer h4{
+    
+	position: absolute;
+    font-size: 16px;
+    left: 1550px;
+    top: 25px;
+    color: #8fb3de;
+}
+

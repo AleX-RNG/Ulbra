@@ -1,0 +1,70 @@
+a)
+
+Autor (codigo, nome, cpf)
+Livro(codigo, titulo,Num_paginas)
+escrito(codautor, codlivro)
+    codautor referencia Autor(Código)
+    codlivro referencia Livro(Código)
+Cliente(Código, Nome, E-MAIL)
+Emprestimo(data, codcliente, codlivro)
+codcliente referencia Cliente(codigo)
+codlivro referencia Livro(codigo)
+
+b)
+
+Filial( codigo, endereço)
+Estado(codigo, nome, UF, codfilial)
+codfilial referencial filial
+Cidade(codigo, nome, codigoestado)
+    codigoestado referencia estado(codigo)
+Cliente(codigo, nome, codigocidade, codfilial)
+    codigocidade referencia cidade(codigo)
+    codfilial referencia Filial(codigo)
+Produto(codigo, descricao, preco)
+Vende(cod_produto, codfilial)
+    cod_produto referencia Produto(codigo)
+    codfilial referencia filial(codigo)
+
+c)
+
+Estado(codigo, nome)
+Veiculo(codigo, nome, marca, ano)
+Pessoa(codigo, nome, endereço, bairro, codestado)
+    codestado referencia Estado(codigo)
+Aluguel(data_final, data_inicial, kmfinal, kminicial, codveiculo, codpessoa)
+    codveiculo referencia Veiculo(codigo)
+    codpessoa referencia Pessoa(codigo)
+
+d)
+
+cidade(codigo, nome, uf)
+curso_curriculo(cod_curso, nome, id_curriculo, no_horas)
+aluno(matricula; nome, cod_cid, cod_curso)
+    cod_cid referencia cidade(codigo)
+    cod_curso referencia curso_curriculo(cod_curso)
+disciplina(codigo, nome)
+pre_requisito(cod_disciplina, cod_prereq)
+    cod_disciplina referencia disciplina(codigo)
+    cod_prereq referencia disciplina(codigo)
+cur_disc(cod_curso, cod_disciplina)
+    cod_curso referencia curso_curriculo(cod_curso)
+    cod_disciplina referencia disciplina(codigo)
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

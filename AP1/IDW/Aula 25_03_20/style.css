@@ -1,0 +1,81 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif;
+}
+
+.linha{
+    clear: both;
+}
+
+.cabe{
+    background-color: #162e58;
+    min-height: 85px;
+    padding: 20px 70px 0px 70px;
+}
+
+.titulocabe{
+    color: #ffffff;
+    float: left;
+    min-height: 50%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.tableClass{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.classificacao{
+    width:50%;
+}
+
+.tituloclassi{
+    font-size: 20px;
+}
+
+.titulogrupo{
+
+    font-size: 20px;
+}
+
+.goleadores{
+    width: 50%;
+}
+
+.goleadortable{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.jogos{
+    width: 50%
+}
+
+.jogostable{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -100vw;
+    overflow-y: auto;
+    z-index: 0;
+    background-color: rgb(228, 224, 224);
+}
+
+.page:target {
+    left: 0vw;
+    z-index: 1;
+}

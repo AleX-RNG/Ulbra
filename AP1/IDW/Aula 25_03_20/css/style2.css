@@ -1,0 +1,197 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: arial, sans-serif;
+    margin: 0 em;
+}
+
+body{
+    clear: both;
+    min-width: 1366px;
+}
+
+.cabe{
+    background-color: #162e58;
+    min-height: 85px;
+    padding: 19px 70px 0px 72px;
+}
+
+.titulocabe{
+    color: #ffffff;
+    float: left;
+    min-height: 50%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.row {
+    display: none;
+}
+
+#all input[type="radio"]{display: none;}
+#all input[type="radio"]:checked + div {
+    display: block;
+}
+
+nav{
+    font-size: 12px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.sec1{
+    position: absolute;
+    left: 911px;
+    top: 73px;
+}
+
+.sec2{
+    position: absolute;
+    right: 769px;
+    top: 73px
+}
+
+.sec3{
+    position: absolute;
+    right: 622px;
+    top: 73px;
+}
+
+.sec4{
+    position: absolute;
+    left: 780px;
+    top: 73px;
+}
+
+.cabe2{
+    position: absolute;
+    left: 600px;
+    top: 125px;
+    font-size: 13px;
+}
+
+.titulogrupo{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    font-size: 16px;
+}
+
+.tableClass{
+    width: 39%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    font-size: 14px;
+}
+
+.shade1{
+    color: #8c75a3;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.win {
+    height: 15px;
+    width: 15px;
+    background-color: #3aa757;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.draw {
+    height: 15px;
+    width: 15px;
+    background-color: #9aa0a6;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.loss {
+    height: 15px;
+    width: 15px;
+    background-color: #ea4335;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.titulogrupo2{
+    position: absolute;
+    left: 600px;
+    top: 420px;
+    font-size: 16px;
+}
+
+.tableClass2{
+    width: 39%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 460px;
+    left: 30%;
+    font-size: 14px;
+}
+
+.tableClass3{
+    width: 39%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    font-size: 14px;
+}
+
+.shade2{
+    color: #8c75a3;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.jogostable{
+    width: 20%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    font-size: 14px;
+}
+
+.jogostable2{
+    width: 20%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 240px;
+    right: 30%;
+    font-size: 14px;
+}
+
+.jogostable3{
+    width: 20%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 316px;
+    left: 30%;
+    font-size: 14px;
+}
+
+.jogostable4{
+    width: 20%;
+    background-color: #ffffff;
+    text-align: justify;
+    position: absolute;
+    top: 316px;
+    right: 30%;
+    font-size: 14px;
+}
+
+
